@@ -1,4 +1,3 @@
-import React from 'react';
 import { Header } from './components/Header';
 import { WordCard } from './components/WordCard';
 import { PledgeSection } from './components/PledgeSection';
@@ -15,14 +14,24 @@ const words = [
     explanation: "驾驶能力与性别无关，不应该带有性别歧视的标签。"
   },
   {
-    word: "女强人",
-    alternative: "专业人士/成功人士",
-    explanation: "成功不应该与性别挂钩，每个人都值得因自己的能力受到尊重。"
+    word: "贤妻良母",
+    alternative: "家庭贡献者",
+    explanation: "去除传统角色框架。"
   },
   {
     word: "更年期",
     alternative: "生理调节期",
     explanation: "这是一个正常的生理现象，不应该被用作贬义词。"
+  },
+  {
+    word: "妓女",
+    alternative: "性工作者",
+    explanation: "使用中性、职业化术语。"
+  },
+  {
+    word: "母老虎",
+    alternative: "果断的人",
+    explanation: "认可女性的果敢与决断力。"
   }
 ];
 
